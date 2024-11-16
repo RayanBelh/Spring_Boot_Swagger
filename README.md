@@ -33,9 +33,6 @@ Pour démarrer l'application Spring Boot soit manuellement soit avec :
 ```bash
 mvn spring-boot:run
 ```
-### 4. Structure du projet 
-![image](https://github.com/user-attachments/assets/db36a2f6-5a84-4be2-ba27-c80799f75f68)
-
 
 ## **API Endpoints**
 
@@ -100,6 +97,9 @@ mvn spring-boot:run
   - `StudentRepository` : Accès à la base de données avec Spring Data JPA.
 - **Services** :
   - `StudentService` : Logique métier pour les opérations CRUD.
+  
+![image](https://github.com/user-attachments/assets/70fd6d91-8007-46a7-8c50-cfbed5b90bec)
+
 
 ## **Tests**
 
