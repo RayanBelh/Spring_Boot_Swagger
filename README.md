@@ -10,54 +10,26 @@ Ce projet est une application Spring Boot qui fournit une interface RESTful pour
 - **IDE** : IntelliJ IDEA, Eclipse ou tout autre IDE supportant Spring Boot
 
 ## **Démarrage**
+### 1. Création du projet avec 'Spring Initializer' 
+![image](https://github.com/user-attachments/assets/28c9a240-49c5-4ba1-907a-0caf797fe4c5)
 
-### 1. Cloner le projet
-Clonez ce dépôt dans votre environnement local :
-```bash
-git clone <URL_DU_DEPOT>
-cd student_management
-```
-
-### 2. Ajouter les dépendances Maven
-Ce projet utilise les dépendances suivantes dans le fichier `pom.xml` :
-```xml
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-data-jpa</artifactId>
-</dependency>
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-web</artifactId>
-</dependency>
-<dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <scope>runtime</scope>
-</dependency>
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-test</artifactId>
-    <scope>test</scope>
-</dependency>
-```
-
-### 3. Configurer la base de données MySQL
-Créez une base de données MySQL nommée `studentdb` :
+### 2. Création de la base de données MySQL
+Créez une base de données MySQL nommée `student` :
 ```sql
-CREATE DATABASE studentdb;
+CREATE DATABASE student;
 ```
 
 Configurez les paramètres de la base de données dans le fichier `src/main/resources/application.properties` :
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/studentdb
+spring.datasource.url=jdbc:mysql://localhost:3306/student
 spring.datasource.username=root
 spring.datasource.password=
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
 
-### 4. Lancer l'application
-Pour démarrer l'application Spring Boot :
+### 3. Lancer l'application
+Pour démarrer l'application Spring Boot soit manuellement soit avec :
 ```bash
 mvn spring-boot:run
 ```
@@ -144,4 +116,3 @@ mvn test
 
 Ce projet est fourni dans le cadre d'une démonstration de Spring Boot et peut être librement utilisé et modifié.
 
-Cela inclut toutes les parties importantes de votre projet, de l'installation aux tests. Faites-moi savoir si vous voulez personnaliser davantage ce fichier !
