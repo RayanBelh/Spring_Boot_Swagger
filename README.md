@@ -1,6 +1,6 @@
 # Gestion des Étudiants avec Spring Boot
 
-Ce projet est une application Spring Boot qui fournit une interface RESTful pour effectuer des opérations CRUD sur une entité `Étudiant` stockée dans une base de données MySQL.
+Ce projet est une application Spring Boot qui fournit une interface RESTful pour effectuer des opérations CRUD sur une entité étudiant écris sous forme `Student` stockée dans une base de données MySQL.
 
 ## **Prérequis**
 
