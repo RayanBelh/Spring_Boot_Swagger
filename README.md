@@ -33,6 +33,9 @@ Pour démarrer l'application Spring Boot soit manuellement soit avec :
 ```bash
 mvn spring-boot:run
 ```
+### 4. Structure du projet 
+![image](https://github.com/user-attachments/assets/db36a2f6-5a84-4be2-ba27-c80799f75f68)
+
 
 ## **API Endpoints**
 
